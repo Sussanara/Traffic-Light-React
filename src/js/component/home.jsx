@@ -5,7 +5,7 @@ function Home () {
     const [ selectedColor, setSelectColor ] = useState("Red")
     return (
         <div className="traffic-Light">
-            <div className={"Red"+(selectedColor === "Red") ? "glow": ""} ></div>
+            <div className="Red glow"></div>
             <div className="Yellow"></div>
             <div className="Green"></div>
         </div>
