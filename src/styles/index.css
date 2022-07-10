@@ -1,11 +1,19 @@
+.container {
+    width: 25px;
+    height: 60px;
+    background: black;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
 
 .traffic-Light {
     width: 130px;
     height: 330px;
     background: black;
     padding: 15px;
-    display: inline-block;
-    border-radius: 10%;
+    margin-top: 55px;
+    border-radius: 25%;
     align-content: center;
     justify-content: center;
 }
@@ -28,7 +36,7 @@
     border-radius: 50%;
 }
 .glow {
-    box-shadow: 0px 0px 9px 4px #fcfbfb;
+    box-shadow: 0px 0px 10px 10px #fcfbfb;
 }
 /* 
 
