@@ -1,3 +1,7 @@
+* {
+    background-color: rgb(92, 137, 235);
+}
+
 .container {
     width: 25px;
     height: 60px;
@@ -38,6 +42,7 @@
 .glow {
     box-shadow: 0px 0px 10px 10px #fcfbfb;
 }
+
 /* 
 
     You can write your own styles here...
